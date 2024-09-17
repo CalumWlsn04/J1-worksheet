@@ -1,0 +1,62 @@
+
+	"checkCode 1.A ",
+	"true",			
+	//WRITE YOUR TESTS BELOW IN THE SAME FORMAT (USE COPY-AND-PASTE)
+	"checkCode 0.Test ",
+	"false",
+
+	"checkCode 1000.Test ",
+	"false",
+
+	"checkCode 1.Test ",
+	"true",
+	
+	"checkCode 999.Test ",
+	"true",
+
+	"checkCode 020.Test ",
+	"false",
+
+	"checkCode 20 ",
+	"false",
+
+	"checkCode 20. ",
+	"false",
+
+	"checkCode 20.aBC ",
+	"false",
+
+	"checkCode 20.A B C D E F G ",
+	"true",
+	
+	"checkCode 20.  A",
+	"false",
+
+	"checkCode 20.  A ",
+	"false",
+	
+	"checkCode 20.A    B        C        D ", //This is the error
+	"false", //This should be true
+	
+	"checkCode 50.A$# ",
+	"false",
+
+	"checkCode 50.Test",
+	"false",
+	
+	"checkCode 50.Test 12345",
+	"true",
+	
+	"checkCode 50.Test 1234",
+	"false",
+
+	"checkCode 50.Test 123456",
+	"false",
+
+	"checkCode 50.Test 12$34",
+	"false",
+
+	"checkCode 50.Test1 ",
+	"false",
+	
+	//DO NOT CHANGE ANYTHING BELOW THIS LINE		
